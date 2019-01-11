@@ -2,7 +2,7 @@
 
 ##  Updata Time:2019_01_11
 
-**Name:**基于语义分割的交通标志检测与深度学习技术识别 <br>
+**Name:**　基于语义分割的交通标志检测与深度学习技术识别 <br>
 **Publication category:** IEEE<br>
 **Publication Name:** ICCP <br>
 **Issuing Time:** 2018_11_7 <br>
