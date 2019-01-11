@@ -68,6 +68,16 @@
 **Link**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E7%8E%8B%E6%96%B9%E7%9F%B3.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="889" height="345" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/6-1.PNG"/></div>  <br>
+**Name:** 基于颜色特征和神经网络的交通标志检测与分类 <br>
+**Publication category:** IEEE<br>
+**Publication Name:** ICICPI<br>
+**Issuing Time:** 2017_2_23<br>
+**Contribution:** 提出了一个框架，可以从图像中检测和分类不同类型的交通标志。<br>
+**Difficulty:** 将RGB转换为HSV，颜色阈值技术用于检测交通标志，图像转为仅由黑色和白色组成的二进制图像，再根据每个像素的8连通性标记。<br>
+**Result:** 检出率在90％以上，识别准确率在88％以上。<br>
+**Link**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2016_%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E7%89%B9%E5%BE%81%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="736" height="351" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/7-1.PNG"/></div>  <br>
 <br>
 
 ---
