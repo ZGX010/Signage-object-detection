@@ -120,4 +120,23 @@
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%88%98%E5%8D%A0%E6%96%87.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="441" height="748" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/11-1.PNG"/></div>  <br>
+**Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Expert Systems With Applications <br>
+**Issuing Time:** 2016_4_15 <br>
+**Contribution:** 提出一种无参数的圆检测算法EDCircles，即算法在运行测试图像之前不需要训练任何图像来调整任何参数。 <br>
+**Difficulty:** EDCircles适用于灰度图像，可以利用颜色信息来提高性能。 <br>
+**Result:** 使用提出的RGB阈值技术，即RGB + EDCircles + RGBNDiff，可以获得最佳结果。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E8%AE%BA%E5%9C%86%E5%BD%A2%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="889" height="487" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-1.PNG"/></div>  <br>
+<div align=center><img width="887" height="414" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-2.PNG"/></div>  <br>
+**Name:** 使用卷积神经网络检测和分类交通标志的实用方法 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Robotics and Autonomous Systems <br>
+**Issuing Time:** 2016_7_19 <br>
+**Contribution:** 提出一种轻量级和精确的ConvNet检测交通标志，进一步优化ConvNet使交通标志分类更快、更准确。 <br>
+**Difficulty:** 如何在ConvNet中实现实时滑动窗口检测器。检测模块消耗更多时间，尤其是当其应用于高分辨率图像时。 <br>
+**Result:** ConvNet检测交通标志的平均精度等于99.89%。滑动窗口可以实现每秒处理37.72个高分辨率图像并定位交通标志。ConvNet能够分类99.55%测试样本，稳定性分析表明ConvNet能够容忍高斯噪声σ<10。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E4%BD%BF%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A3%80%E6%B5%8B%E5%92%8C%E5%88%86%E7%B1%BB%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95.pdf<br>
 <br>
