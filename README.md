@@ -60,7 +60,7 @@
 **Difficulty:** 在RGB颜色空间选择一个基础通道，计算相对通道差值，通过实验数据拟合阈值曲线进行自适应颜色分割;对分割图像提取边缘，提出最小二乘椭圆拟合后验偏差估计法对边缘进行筛选。<br>
 **Shortcoming:** 存在错检漏检；在普适性及自动化上有所欠缺。<br>
 **Result:** 有效检测率高达97.92％，平均耗时只有65.42ms，对亮度、视角变化、褪色、模糊等情况具有较好的鲁棒性。<br>
-**Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%9C%86%E5%BD%A2%E7%A6%81%E4%BB%A4%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E6%9D%8E%E8%BF%8E%E6%9D%BE.pdf<br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%9C%86%E5%BD%A2%E7%A6%81%E4%BB%A4%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E6%9D%8E%E8%BF%8E%E6%9D%BE.pdf<br>
 <br>
 
 **Name:** 自然环境下圆形禁令交通标志检测 <br>
@@ -71,7 +71,7 @@
 **Difficulty:** 在HSV颜色空间上提取最大稳定极值区域（MSER）以提取交通标志候选区域。<br>
 **Shortcoming:** 交通标志表面图案较为复杂，元素较多时，候选区域提取的性能会有一定的损失。<br>
 **Result:** 有效提高交通标志检测精度和召回率<br>
-**Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E7%8E%8B%E6%96%B9%E7%9F%B3.pdf<br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E7%8E%8B%E6%96%B9%E7%9F%B3.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="889" height="345" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/6-1.PNG"/></div>  <br>
 <br>
@@ -100,6 +100,8 @@
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8C%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%BE%B9%E7%95%8C%E4%BC%B0%E8%AE%A1.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="738" height="490" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/8-1.PNG"/></div>  <br>
+<br>
+
 **Name:** 基于深度学习的交通标志检测与识别研究与应用 <br>
 **Publication category:** IEEE <br>
 **Publication Name:** ICRIS <br>
@@ -108,6 +110,8 @@
 **Difficulty:** 向数据集添加更多数据，一些交通标志具有水平或垂直镜像的不变性，并且训练样本的图像可以随机地旋转小角度以处理真实场景中的符号倾斜问题；防止模型过度拟合使用丢失算法。 <br>
 **Result:** 最大迭代次数为20000次，准确率可达到约96％。网络在图像严重倾斜、质量差、最小边界框不够准确等极端条件下有改进的余地。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AEICRIS_2018_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%BA%94%E7%94%A8.pdf <br>
+<br>
+
 **Name:** 实时交通标志检测与分类 <br>
 **Publication category:** IEEE <br>
 **Publication Name:** TITS <br>
@@ -118,6 +122,8 @@
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E5%AE%9E%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="748" height="302" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/10-1.PNG"/></div>  <br>
+<br>
+
 **Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
 **Publication category:** EI <br>
 **Publication Name:** 交通运输工程学报 <br>
@@ -128,6 +134,8 @@
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%88%98%E5%8D%A0%E6%96%87.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="441" height="748" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/11-1.PNG"/></div>  <br>
+<br>
+
 **Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
 **Publication category:** ScienceDirect <br>
 **Publication Name:** Expert Systems With Applications <br>
@@ -139,6 +147,8 @@
 **Thumbnail:** <br> 
 <div align=center><img width="889" height="487" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-1.PNG"/></div>  <br>
 <div align=center><img width="887" height="414" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-2.PNG"/></div>  <br>
+<br>
+
 **Name:** 使用卷积神经网络检测和分类交通标志的实用方法 <br>
 **Publication category:** ScienceDirect <br>
 **Publication Name:** Robotics and Autonomous Systems <br>
