@@ -1,5 +1,100 @@
 # Signage-object-detection
 
+---
+##  Updata Time:2019_01_13
+**Name:** 用于车载网络中的真实交通标志的深度检测网络<br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Computer Networks <br>
+**Issuing Time:** 2018_4_2 <br>
+**Contribution:** 提出了一种新颖的端到端深度网络，通过两阶段调整策略提取区域提案。添加新的AT（注意网络），根据颜色特征定位所有潜在的RoI。 <br>
+**Difficulty:** 采用两阶段调整策略定位RoI，以粗略到精细的方式加速对象检测过程。 <br>
+**Result:** 仅生成Faster-RCNN的1/14锚，使用ZF-Net检测速度提高了约2fps，在两个基准测试中的平均mAP分别为80.31％和94.95％，分别比使用VGG16的Faster-RCNN高9.69％和7.88％。实验结果表明该网络在速度和mAP方面都优于以前的方法,在小尺寸物体上表现更好。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2018_%E7%94%A8%E4%BA%8E%E8%BD%A6%E8%BD%BD%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%A3%80%E6%B5%8B%E7%BD%91%E7%BB%9C.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="439" height="271" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-1.PNG"/></div>  <br>
+<div align=center><img width="543" height="184" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-2.PNG"/></div>  <br>
+**Name:** 通过兴趣区域提取检测交通标志 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Pattern Recognition <br>
+**Issuing Time:** 2015_6_9 <br>
+**Contribution:** 使用实体图像分析和模式识别技术的组合来解决移动地图数据中的兴趣区域提取交通标志检测问题。 <br>
+**Difficulty:** 兴趣区域提取通过两种互补算法最大稳定极值区域（MSER）检测器和基于波的检测器（WaDe）实现。 <br>
+**Result:** 提出的交通标志检测系统在诸如变化的照明、部分遮挡、大规模变化的挑战条件下表现良好。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2015_%E9%80%9A%E8%BF%87%E5%85%B4%E8%B6%A3%E5%8C%BA%E5%9F%9F%E6%8F%90%E5%8F%96%E6%A3%80%E6%B5%8B%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97.pdf<br>
+<br>
+
+---
+##  Updata Time:2019_01_12
+**Name:** 基于卷积神经网络的同时交通标志检测与边界估计<br>
+**Publication category:** IEEE <br>
+**Publication Name:** TITS <br>
+**Issuing Time:** 2018_3_8 <br>
+**Contribution:** 提出估计交通标志的位置与其精确边界的方法。推广了物体边界框检测问题并制定了物体姿态估计问题，使用CNN建模。为实现检测速度，考虑交通标志的特征，探索了性能最佳的基础网络并修剪了不必要的网络层。优化网络输入的分辨率，在速度和准确度之间实现折衷. <br>
+**Difficulty:** 基于SSD结构构建CNN块，网络执行姿态估计，转换成相应交通标志的边界估计。从特征图中，通过两个分离的卷积层，即姿势回归层和形状分类层结合将卷积输出分别转换为2D姿势值和类概率的连续操作来估计2D姿势和形状类概率。使用获得的2D姿势和形状类概率计算边界角。 <br>
+**Result:** 如下图所示，两种型号在0.5 IoU时均达到0.8 mAP以上，甚至在0.7 IoU时也达到0.8 mAP。表明该方法能够准确地检测交通标志。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8C%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%BE%B9%E7%95%8C%E4%BC%B0%E8%AE%A1.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="738" height="490" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/8-1.PNG"/></div>  <br>
+<br>
+
+**Name:** 基于深度学习的交通标志检测与识别研究与应用 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** ICRIS <br>
+**Issuing Time:** 2018_7_12 <br>
+**Contribution:** 提出了一种基于SSD算法的交通标志检测与识别新框架；将SSD扩展到新的应用程序交通标志检测和识别问题；缩短训练时间，提高Softmax分类器的准确性。 <br>
+**Difficulty:** 向数据集添加更多数据，一些交通标志具有水平或垂直镜像的不变性，并且训练样本的图像可以随机地旋转小角度以处理真实场景中的符号倾斜问题；防止模型过度拟合使用丢失算法。 <br>
+**Result:** 最大迭代次数为20000次，准确率可达到约96％。网络在图像严重倾斜、质量差、最小边界框不够准确等极端条件下有改进的余地。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AEICRIS_2018_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%BA%94%E7%94%A8.pdf <br>
+<br>
+
+**Name:** 实时交通标志检测与分类 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** TITS <br>
+**Issuing Time:** 2015_10_12 <br>
+**Contribution:** 提出了一种极快的检测模块，比现有的最佳检测模块快20倍。提出了一种颜色概率模型来处理交通标志的颜色信息，以增强交通标志的特定颜色（如红色，蓝色和黄色），抑制背景颜色，减少算法的搜索空间,缩短检测时间；提取交通标志提案而不是滑动窗口检测，结合SVM和CNN检测和分类交通标志；构建了一个中国交通标志数据集（CTSD）. <br>
+**Difficulty:** 检测模块利用颜色概率模型和MSER区域检测器提取交通标志提案，使用SVM分类器过滤误报并基于新颖的颜色HOG特征将剩余的提议分类。 <br>
+**Result:** 准确性略差，但速度快了20倍。每个图像的平均时间仅为0.162秒，而其他方法通常需要几秒钟。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E5%AE%9E%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="748" height="302" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/10-1.PNG"/></div>  <br>
+<br>
+
+**Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
+**Publication category:** EI <br>
+**Publication Name:** 交通运输工程学报 <br>
+**Issuing Time:** 2016_10_15 <br>
+**Contribution:** 提出基于图模型的层次显著性检测方法HSDBGM，有效地融合了局部区域的细节信息与图像的结构信息。建立面向应用的 R-CNN交通标志识别系统，通过显著性检测方法提取ROI，并与CNN结合。 <br>
+**Difficulty:** 提出一种基于先验位置约束与局部特征（颜色与边界）的层次显著性模型。 <br>
+**Result:** 针对限速标志，基于UCM超像素区域的图模型比基于简单线性迭代聚类（SLIC）超像素的图模型更有利于获取上层显著度图的大尺度结构信息；基于先验位置约束与局部特征（颜色与边界）的层次显著性模型查准率为0.65，查全率为0.8，Ｆ指数为0.73，均高于其他同类基于超像素的显著性检测算法；基于具体检测任务的CNN预训练策略扩展了德国交通标志识别库（GTSRB）的样本集，更好地学习目标内部的局部精细特征，提高了学习与识别能力，总识别率为98.85%，高于SVM分类器的96.73%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%88%98%E5%8D%A0%E6%96%87.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="441" height="748" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/11-1.PNG"/></div>  <br>
+<br>
+
+**Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Expert Systems With Applications <br>
+**Issuing Time:** 2016_4_15 <br>
+**Contribution:** 提出一种无参数的圆检测算法EDCircles，即算法在运行测试图像之前不需要训练任何图像来调整任何参数。 <br>
+**Difficulty:** EDCircles适用于灰度图像，可以利用颜色信息来提高性能。 <br>
+**Result:** 使用提出的RGB阈值技术，即RGB + EDCircles + RGBNDiff，可以获得最佳结果。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E8%AE%BA%E5%9C%86%E5%BD%A2%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB.pdf<br>
+**Thumbnail:** <br> 
+<div align=center><img width="889" height="487" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-1.PNG"/></div>  <br>
+<div align=center><img width="887" height="414" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-2.PNG"/></div>  <br>
+<br>
+
+**Name:** 使用卷积神经网络检测和分类交通标志的实用方法 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Robotics and Autonomous Systems <br>
+**Issuing Time:** 2016_7_19 <br>
+**Contribution:** 提出一种轻量级和精确的ConvNet检测交通标志，进一步优化ConvNet使交通标志分类更快、更准确。 <br>
+**Difficulty:** 如何在ConvNet中实现实时滑动窗口检测器。检测模块消耗更多时间，尤其是当其应用于高分辨率图像时。 <br>
+**Result:** ConvNet检测交通标志的平均精度等于99.89%。滑动窗口可以实现每秒处理37.72个高分辨率图像并定位交通标志。ConvNet能够分类99.55%测试样本，稳定性分析表明ConvNet能够容忍高斯噪声σ<10。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E4%BD%BF%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A3%80%E6%B5%8B%E5%92%8C%E5%88%86%E7%B1%BB%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95.pdf<br>
+<br>
+
+---
 ##  Updata Time:2019_01_11
 **Name:** 基于语义分割的交通标志检测与深度学习技术识别 <br>
 **Publication category:** IEEE<br>
@@ -86,90 +181,4 @@
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2016_%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E7%89%B9%E5%BE%81%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="736" height="351" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/7-1.PNG"/></div>  <br>
-<br>
-
----
-##  Updata Time:2019_01_12
-**Name:** 基于卷积神经网络的同时交通标志检测与边界估计<br>
-**Publication category:** IEEE <br>
-**Publication Name:** TITS <br>
-**Issuing Time:** 2018_3_8 <br>
-**Contribution:** 提出估计交通标志的位置与其精确边界的方法。推广了物体边界框检测问题并制定了物体姿态估计问题，使用CNN建模。为实现检测速度，考虑交通标志的特征，探索了性能最佳的基础网络并修剪了不必要的网络层。优化网络输入的分辨率，在速度和准确度之间实现折衷. <br>
-**Difficulty:** 基于SSD结构构建CNN块，网络执行姿态估计，转换成相应交通标志的边界估计。从特征图中，通过两个分离的卷积层，即姿势回归层和形状分类层结合将卷积输出分别转换为2D姿势值和类概率的连续操作来估计2D姿势和形状类概率。使用获得的2D姿势和形状类概率计算边界角。 <br>
-**Result:** 如下图所示，两种型号在0.5 IoU时均达到0.8 mAP以上，甚至在0.7 IoU时也达到0.8 mAP。表明该方法能够准确地检测交通标志。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8C%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%BE%B9%E7%95%8C%E4%BC%B0%E8%AE%A1.pdf<br>
-**Thumbnail:** <br> 
-<div align=center><img width="738" height="490" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/8-1.PNG"/></div>  <br>
-<br>
-
-**Name:** 基于深度学习的交通标志检测与识别研究与应用 <br>
-**Publication category:** IEEE <br>
-**Publication Name:** ICRIS <br>
-**Issuing Time:** 2018_7_12 <br>
-**Contribution:** 提出了一种基于SSD算法的交通标志检测与识别新框架；将SSD扩展到新的应用程序交通标志检测和识别问题；缩短训练时间，提高Softmax分类器的准确性。 <br>
-**Difficulty:** 向数据集添加更多数据，一些交通标志具有水平或垂直镜像的不变性，并且训练样本的图像可以随机地旋转小角度以处理真实场景中的符号倾斜问题；防止模型过度拟合使用丢失算法。 <br>
-**Result:** 最大迭代次数为20000次，准确率可达到约96％。网络在图像严重倾斜、质量差、最小边界框不够准确等极端条件下有改进的余地。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AEICRIS_2018_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%BA%94%E7%94%A8.pdf <br>
-<br>
-
-**Name:** 实时交通标志检测与分类 <br>
-**Publication category:** IEEE <br>
-**Publication Name:** TITS <br>
-**Issuing Time:** 2015_10_12 <br>
-**Contribution:** 提出了一种极快的检测模块，比现有的最佳检测模块快20倍。提出了一种颜色概率模型来处理交通标志的颜色信息，以增强交通标志的特定颜色（如红色，蓝色和黄色），抑制背景颜色，减少算法的搜索空间,缩短检测时间；提取交通标志提案而不是滑动窗口检测，结合SVM和CNN检测和分类交通标志；构建了一个中国交通标志数据集（CTSD）. <br>
-**Difficulty:** 检测模块利用颜色概率模型和MSER区域检测器提取交通标志提案，使用SVM分类器过滤误报并基于新颖的颜色HOG特征将剩余的提议分类。 <br>
-**Result:** 准确性略差，但速度快了20倍。每个图像的平均时间仅为0.162秒，而其他方法通常需要几秒钟。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E5%AE%9E%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
-**Thumbnail:** <br> 
-<div align=center><img width="748" height="302" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/10-1.PNG"/></div>  <br>
-<br>
-
-**Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
-**Publication category:** EI <br>
-**Publication Name:** 交通运输工程学报 <br>
-**Issuing Time:** 2016_10_15 <br>
-**Contribution:** 提出基于图模型的层次显著性检测方法HSDBGM，有效地融合了局部区域的细节信息与图像的结构信息。建立面向应用的 R-CNN交通标志识别系统，通过显著性检测方法提取ROI，并与CNN结合。 <br>
-**Difficulty:** 提出一种基于先验位置约束与局部特征（颜色与边界）的层次显著性模型。 <br>
-**Result:** 针对限速标志，基于UCM超像素区域的图模型比基于简单线性迭代聚类（SLIC）超像素的图模型更有利于获取上层显著度图的大尺度结构信息；基于先验位置约束与局部特征（颜色与边界）的层次显著性模型查准率为0.65，查全率为0.8，Ｆ指数为0.73，均高于其他同类基于超像素的显著性检测算法；基于具体检测任务的CNN预训练策略扩展了德国交通标志识别库（GTSRB）的样本集，更好地学习目标内部的局部精细特征，提高了学习与识别能力，总识别率为98.85%，高于SVM分类器的96.73%。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%88%98%E5%8D%A0%E6%96%87.pdf<br>
-**Thumbnail:** <br> 
-<div align=center><img width="441" height="748" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/11-1.PNG"/></div>  <br>
-<br>
-
-**Name:** 基于图模型与卷积神经网络的交通标志识别方法 <br>
-**Publication category:** ScienceDirect <br>
-**Publication Name:** Expert Systems With Applications <br>
-**Issuing Time:** 2016_4_15 <br>
-**Contribution:** 提出一种无参数的圆检测算法EDCircles，即算法在运行测试图像之前不需要训练任何图像来调整任何参数。 <br>
-**Difficulty:** EDCircles适用于灰度图像，可以利用颜色信息来提高性能。 <br>
-**Result:** 使用提出的RGB阈值技术，即RGB + EDCircles + RGBNDiff，可以获得最佳结果。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E8%AE%BA%E5%9C%86%E5%BD%A2%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB.pdf<br>
-**Thumbnail:** <br> 
-<div align=center><img width="889" height="487" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-1.PNG"/></div>  <br>
-<div align=center><img width="887" height="414" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/12-2.PNG"/></div>  <br>
-<br>
-
-**Name:** 使用卷积神经网络检测和分类交通标志的实用方法 <br>
-**Publication category:** ScienceDirect <br>
-**Publication Name:** Robotics and Autonomous Systems <br>
-**Issuing Time:** 2016_7_19 <br>
-**Contribution:** 提出一种轻量级和精确的ConvNet检测交通标志，进一步优化ConvNet使交通标志分类更快、更准确。 <br>
-**Difficulty:** 如何在ConvNet中实现实时滑动窗口检测器。检测模块消耗更多时间，尤其是当其应用于高分辨率图像时。 <br>
-**Result:** ConvNet检测交通标志的平均精度等于99.89%。滑动窗口可以实现每秒处理37.72个高分辨率图像并定位交通标志。ConvNet能够分类99.55%测试样本，稳定性分析表明ConvNet能够容忍高斯噪声σ<10。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E4%BD%BF%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A3%80%E6%B5%8B%E5%92%8C%E5%88%86%E7%B1%BB%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95.pdf<br>
-
----
-##  Updata Time:2019_01_13
-**Name:** 用于车载网络中的真实交通标志的深度检测网络<br>
-**Publication category:** ScienceDirect <br>
-**Publication Name:** Computer Networks <br>
-**Issuing Time:** 2018_4_2 <br>
-**Contribution:** 提出了一种新颖的端到端深度网络，通过两阶段调整策略提取区域提案。添加新的AT（注意网络），根据颜色特征定位所有潜在的RoI。 <br>
-**Difficulty:** 采用两阶段调整策略定位RoI，以粗略到精细的方式加速对象检测过程。 <br>
-**Result:** 仅生成Faster-RCNN的1/14锚，使用ZF-Net检测速度提高了约2fps，在两个基准测试中的平均mAP分别为80.31％和94.95％，分别比使用VGG16的Faster-RCNN高9.69％和7.88％。实验结果表明该网络在速度和mAP方面都优于以前的方法,在小尺寸物体上表现更好。 <br>
-**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2018_%E7%94%A8%E4%BA%8E%E8%BD%A6%E8%BD%BD%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%A3%80%E6%B5%8B%E7%BD%91%E7%BB%9C.pdf<br>
-**Data Link:** http://creativecommons.org/licenses/by/4.0/ <br> 
-**Thumbnail:** <br> 
-<div align=center><img width="439" height="271" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-1.PNG"/></div>  <br>
-<div align=center><img width="543" height="184" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-2.PNG"/></div>  <br>
 <br>
