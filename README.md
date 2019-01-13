@@ -14,6 +14,7 @@
 <div align=center><img width="550" height="107" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/1-1.png"/></div>  <br>
 <div align=center><img width="550" height="427" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/1-2.png"/></div>  <br>
 <br>
+
 **Name:** 一种基于HDR技术的交通标志牌检测和识别方法 <br>
 **Publication category:** 中文核心期刊 <br>
 **Publication Name:** 激光与光电子学进展 <br>
@@ -29,6 +30,7 @@
 <div align=center><img width="1268" height="161" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/2-3.jpg"/></div>  <br>
 <div align=center><img width="1268" height="163" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/2-4.jpg"/></div>  <br>
 <br>
+
 **Name:** 一种基于深度卷积神经网络的交通标志检测算法 <br>
 **Publication category:** IEEE <br>
 **Publication Name:** ICSIP <br>
@@ -37,7 +39,7 @@
 **Difficulty:** 交通标志图像的多样化背景；中国的交通标志文字较多，更复杂。<br>
 **Result:** 该方法具有实时检测速度和99％以上的检测精度，视频序列的检测时间是实时的。 <br>
 **Link**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2016_%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95.pdf <br>
-<br>
+
 **Name:** 一种基于颜色分割和鲁棒形状匹配的交通标志检测方法 <br>
 **Publication category:** Elsevier BV<br>
 **Publication Name:** Neurocomputing <br>
@@ -48,6 +50,8 @@
 **Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E5%88%86%E5%89%B2%E5%92%8C%E9%B2%81%E6%A3%92%E5%BD%A2%E7%8A%B6%E5%8C%B9%E9%85%8D%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="858" height="475" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/4-1.PNG"/></div>  <br>
+<br>
+
 **Name:** 自然环境下圆形禁令交通标志检测 <br>
 **Publication category:** EI<br>
 **Publication Name:** 武汉大学学报(信息科学版) <br>
@@ -57,6 +61,8 @@
 **Shortcoming:** 存在错检漏检；在普适性及自动化上有所欠缺。<br>
 **Result:** 有效检测率高达97.92％，平均耗时只有65.42ms，对亮度、视角变化、褪色、模糊等情况具有较好的鲁棒性。<br>
 **Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%9C%86%E5%BD%A2%E7%A6%81%E4%BB%A4%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E6%9D%8E%E8%BF%8E%E6%9D%BE.pdf<br>
+<br>
+
 **Name:** 自然环境下圆形禁令交通标志检测 <br>
 **Publication category:** EI<br>
 **Publication Name:** 吉林大学学报(工学版) <br>
@@ -68,6 +74,8 @@
 **Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E7%8E%8B%E6%96%B9%E7%9F%B3.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="889" height="345" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/6-1.PNG"/></div>  <br>
+<br>
+
 **Name:** 基于颜色特征和神经网络的交通标志检测与分类 <br>
 **Publication category:** IEEE<br>
 **Publication Name:** ICICPI<br>
