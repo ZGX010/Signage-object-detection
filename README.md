@@ -139,4 +139,19 @@
 **Difficulty:** 如何在ConvNet中实现实时滑动窗口检测器。检测模块消耗更多时间，尤其是当其应用于高分辨率图像时。 <br>
 **Result:** ConvNet检测交通标志的平均精度等于99.89%。滑动窗口可以实现每秒处理37.72个高分辨率图像并定位交通标志。ConvNet能够分类99.55%测试样本，稳定性分析表明ConvNet能够容忍高斯噪声σ<10。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E4%BD%BF%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A3%80%E6%B5%8B%E5%92%8C%E5%88%86%E7%B1%BB%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95.pdf<br>
+
+---
+##  Updata Time:2019_01_13
+**Name:** 用于车载网络中的真实交通标志的深度检测网络<br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** Computer Networks <br>
+**Issuing Time:** 2018_4_2 <br>
+**Contribution:** 提出了一种新颖的端到端深度网络，通过两阶段调整策略提取区域提案。添加新的AT（注意网络），根据颜色特征定位所有潜在的RoI。 <br>
+**Difficulty:** 采用两阶段调整策略定位RoI，以粗略到精细的方式加速对象检测过程。 <br>
+**Result:** 仅生成Faster-RCNN的1/14锚，使用ZF-Net检测速度提高了约2fps，在两个基准测试中的平均mAP分别为80.31％和94.95％，分别比使用VGG16的Faster-RCNN高9.69％和7.88％。实验结果表明该网络在速度和mAP方面都优于以前的方法,在小尺寸物体上表现更好。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2018_%E7%94%A8%E4%BA%8E%E8%BD%A6%E8%BD%BD%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%A3%80%E6%B5%8B%E7%BD%91%E7%BB%9C.pdf<br>
+**Data Link:** http://creativecommons.org/licenses/by/4.0/ <br> 
+**Thumbnail:** <br> 
+<div align=center><img width="439" height="271" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-1.PNG"/></div>  <br>
+<div align=center><img width="543" height="184" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-2.PNG"/></div>  <br>
 <br>
