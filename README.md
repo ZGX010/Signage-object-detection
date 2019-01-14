@@ -1,6 +1,41 @@
 # Signage-object-detection
 
 ---
+##  Updata Time:2019_01_14
+**Name:** 自动驾驶场景下小且密集的交通标志检测<br>
+**Publication category:** 中文核心<br>
+**Publication Name:** 智能系统学报 <br>
+**Issuing Time:** 2018_4_11 <br>
+**Contribution:** 提出用浅层VGG16网络作为物体检测框架R-FCN的主体网络，并改进VGG16网络以检测小的交通标志。 <br>
+**Difficulty:** 减小特征图缩放倍数,去掉VGG16网络卷积conv43后面的特征图,使用RPN网络在浅层卷积conv43上提取候选框;特征拼层,将尺度相同的卷积conv41、conv42、conv43层的特征拼接起来形成组合特征。 <br>
+**Result:** 改进后的物体检测框架能够检测到更多的小物体,在驭势科技提供的交通标志数据集上检测的准确率mAP达到了65%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/2018_%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%9C%BA%E6%99%AF%E4%B8%8B%E5%B0%8F%E4%B8%94%E5%AF%86%E9%9B%86%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E8%91%9B%E5%9B%AD%E5%9B%AD.pdf<br>
+**Name:** 基于感兴趣区域提取与双过滤器的交通标志检测算法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 电子测量与仪器学报 <br>
+**Issuing Time:** 2018_5_15 <br>
+**Contribution:** 设计了一种ROI提取与双过滤器的交通标志检测方案，通过2种具有互补的兴趣区域MSER与WE测量。 <br>
+**Difficulty:** 利用MSER与WE对交通标志的ROI提取得到了标志的候选区域，再联合HOG与SVM方法提取候选区域的特征并进行分类，嵌入了上下文感知过滤器与交通灯过滤器，剔除伪标志区域与交通灯。 <br>
+**Result:** 本文算法平均消耗时间为0.68 s，与其他算法效率相当，能够满足实时性要求。本文算法的Precision-Recall曲线表现良好，稳定性优异。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%84%9F%E5%85%B4%E8%B6%A3%E5%8C%BA%E5%9F%9F%E6%8F%90%E5%8F%96%E4%B8%8E%E5%8F%8C%E8%BF%87%E6%BB%A4%E5%99%A8%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95_%E6%9B%B9%E5%86%8D%E8%BE%89.pdf<br>
+**Name:** 一种基于局部特征的交通标志检测算法的研究 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 现代电子技术 <br>
+**Issuing Time:** 2015_7_1 <br>
+**Contribution:** 以圆形标志牌为例,提出一种统一对称局部特征检测模板提取自然场景下获得的目标区域的特征,设计一组模糊规则判定形状,形成一种基于局部特征的交通标志检测算法。 <br>
+**Difficulty:** 自适应中值滤波器设计；局部特征的提取，包括统一的对称局部特征检测模板和子模板内含有特征颜色像素个数的隶属度函数。 <br>
+**Result:** 该交通标志检测算法检测率基本达到90%左右;对表面有污损的但特征颜色轮廓完整的标志也能正确检测。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%B1%80%E9%83%A8%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6_%E5%AE%8B%E5%A9%80%E5%A8%9C.pdf<br>
+**Name:** 一种基于局部特征的交通标志检测算法的研究 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 现代电子技术 <br>
+**Issuing Time:** 2015_7_1 <br>
+**Contribution:** 以圆形标志牌为例,提出一种统一对称局部特征检测模板提取自然场景下获得的目标区域的特征,设计一组模糊规则判定形状,形成一种基于局部特征的交通标志检测算法。 <br>
+**Difficulty:** 自适应中值滤波器设计；局部特征的提取，包括统一的对称局部特征检测模板和子模板内含有特征颜色像素个数的隶属度函数。 <br>
+**Result:** 该交通标志检测算法检测率基本达到90%左右;对表面有污损的但特征颜色轮廓完整的标志也能正确检测。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%B1%80%E9%83%A8%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6_%E5%AE%8B%E5%A9%80%E5%A8%9C.pdf<br>
+
+---
 ##  Updata Time:2019_01_13
 **Name:** 用于车载网络中的真实交通标志的深度检测网络<br>
 **Publication category:** ScienceDirect <br>
