@@ -10,8 +10,6 @@
 **Difficulty:** 减小特征图缩放倍数,去掉VGG16网络卷积conv43后面的特征图,使用RPN网络在浅层卷积conv43上提取候选框;特征拼层,将尺度相同的卷积conv41、conv42、conv43层的特征拼接起来形成组合特征。 <br>
 **Result:** 改进后的物体检测框架能够检测到更多的小物体,在驭势科技提供的交通标志数据集上检测的准确率mAP达到了65%。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/2018_%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%9C%BA%E6%99%AF%E4%B8%8B%E5%B0%8F%E4%B8%94%E5%AF%86%E9%9B%86%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E8%91%9B%E5%9B%AD%E5%9B%AD.pdf<br>
-<br>
-
 **Name:** 基于感兴趣区域提取与双过滤器的交通标志检测算法 <br>
 **Publication category:** 中文核心 <br>
 **Publication Name:** 电子测量与仪器学报 <br>
@@ -20,8 +18,6 @@
 **Difficulty:** 利用MSER与WE对交通标志的ROI提取得到了标志的候选区域，再联合HOG与SVM方法提取候选区域的特征并进行分类，嵌入了上下文感知过滤器与交通灯过滤器，剔除伪标志区域与交通灯。 <br>
 **Result:** 本文算法平均消耗时间为0.68 s，与其他算法效率相当，能够满足实时性要求。本文算法的Precision-Recall曲线表现良好，稳定性优异。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%84%9F%E5%85%B4%E8%B6%A3%E5%8C%BA%E5%9F%9F%E6%8F%90%E5%8F%96%E4%B8%8E%E5%8F%8C%E8%BF%87%E6%BB%A4%E5%99%A8%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95_%E6%9B%B9%E5%86%8D%E8%BE%89.pdf<br>
-<br>
-
 **Name:** 一种基于局部特征的交通标志检测算法的研究 <br>
 **Publication category:** 中文核心 <br>
 **Publication Name:** 现代电子技术 <br>
@@ -30,17 +26,38 @@
 **Difficulty:** 自适应中值滤波器设计；局部特征的提取，包括统一的对称局部特征检测模板和子模板内含有特征颜色像素个数的隶属度函数。 <br>
 **Result:** 该交通标志检测算法检测率基本达到90%左右;对表面有污损的但特征颜色轮廓完整的标志也能正确检测。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%B1%80%E9%83%A8%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6_%E5%AE%8B%E5%A9%80%E5%A8%9C.pdf<br>
-<br>
-
-**Name:** 一种基于局部特征的交通标志检测算法的研究 <br>
-**Publication category:** 中文核心 <br>
-**Publication Name:** 现代电子技术 <br>
-**Issuing Time:** 2015_7_1 <br>
-**Contribution:** 以圆形标志牌为例,提出一种统一对称局部特征检测模板提取自然场景下获得的目标区域的特征,设计一组模糊规则判定形状,形成一种基于局部特征的交通标志检测算法。 <br>
-**Difficulty:** 自适应中值滤波器设计；局部特征的提取，包括统一的对称局部特征检测模板和子模板内含有特征颜色像素个数的隶属度函数。 <br>
-**Result:** 该交通标志检测算法检测率基本达到90%左右;对表面有污损的但特征颜色轮廓完整的标志也能正确检测。 <br>
-**Link:**  https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%B1%80%E9%83%A8%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E7%AE%97%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6_%E5%AE%8B%E5%A9%80%E5%A8%9C.pdf<br>
-<br>
+**Name:** 基于CNN多层特征和ELM的交通标志识别<br>
+**Publication category:** EI <br>
+**Publication Name:** 电子科技大学学报 <br>
+**Issuing Time:** 2018_5_30 <br>
+**Contribution:** 提出并实现了一种基于多层特征表达和极限学习机的交通标志识别方法. <br>
+**Difficulty:** CNN特征提取;多特征融合;ELM分类器. <br>
+**Result:** 多层特征的识别准确率明显高于单层特征的识别准确率，平均高达两个百分点；利用单层特征的平均准确率为96.08%，利用多层特征的平均准确率为98.13%；ELM 分类器的平均准确率高于softmax和SVM分类器，准确率高达 98.13%；每幅图片的平均识别时间缩短到5.46 m/s。<br> 
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8ECNN%E5%A4%9A%E5%B1%82%E7%89%B9%E5%BE%81%E5%92%8CELM%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E5%AD%99%E4%BC%9F.pdf<br>
+**Name:** 基于多尺度卷积神经网络的交通标志识别 <br>
+**Publication category:** EI <br>
+**Publication Name:** 湖南大学学报（自然科学版） <br>
+**Issuing Time:** 2018_8_25 <br>
+**Contribution:** 提出了一种改进的基于多尺度卷积神经网络（CNN）的交通标志识别算法。 <br>
+**Difficulty:** 通过图像增强比选实验，采用限制对比度自适应直方图均衡化方法作为图像预处理方法以改善图像质量；提出一种多尺度CNN模型提取交通标志图像的全局特征和局部特征；将组合后的多尺度特征送入全连接。 <br>
+**Result:** 算法在GTSRB基准数据集上获得98.82％的识别准确率以及每幅图像0.1ms的识别速度，<br> 
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E5%B0%BA%E5%BA%A6%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E5%AE%8B%E9%9D%92%E6%9D%BE.pdf<br>
+**Name:** BP神经网络下的限速交通标志实时检测识别 <br>
+**Publication category:** EI <br>
+**Publication Name:** 西安电子科技大学学报 <br>
+**Issuing Time:** 2018_4_11 <br>
+**Contribution:** 基于视频数据对限速交通标志进行检测与识别, 实现了限速交通标志的自动检测定位, 采用反向传播神经网络来进行道路标志的识别;采用连续自适应的均值漂移算法和光流法进行视频加速. <br>
+**Difficulty:** 椭圆检测定位过程中采用帧间加速法、连续自适应均值漂移算法(CamShift)、光流法缩短定位时间, 再对定位结果进行反向传播（BP）神经网络识别, 提高检测效率, 实现实时视频处理。<br>
+**Result:** 新提出的算法在耗时上缩短50%以上, 检测识别准确度在90%以上. <br> 
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/BP%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8B%E7%9A%84%E9%99%90%E9%80%9F%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E5%AE%9E%E6%97%B6%E6%A3%80%E6%B5%8B%E8%AF%86%E5%88%AB_%E5%BC%A0%E5%85%B4%E5%9B%BD.pdf<br>
+**Name:** 一种面向无人驾驶汽车的高效交通标志识别方法 <br>
+**Publication category:** EI <br>
+**Publication Name:** 机器人 <br>
+**Issuing Time:** 2015_1_15 <br>
+**Contribution:** 阐述了一种针对自然环境的高效交通标志识别方法，所设计的TSR系统已被应用于无人驾驶汽车平台，并多次参与“中国智能车未来挑战赛”。 <br>
+**Difficulty:** <br>
+**Result:** 本系统主要应用于“中国智能车未来挑战赛”无人驾驶汽车平台，在实际测试中识别率达95％，识别速率达8Hz~10Hz。 <br> 
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E9%9D%A2%E5%90%91%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E7%9A%84%E9%AB%98%E6%95%88%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%AE%8B%E6%96%87%E6%9D%B0.pdf<br>
 
 ---
 ##  Updata Time:2019_01_13
@@ -51,12 +68,10 @@
 **Contribution:** 提出了一种新颖的端到端深度网络，通过两阶段调整策略提取区域提案。添加新的AT（注意网络），根据颜色特征定位所有潜在的RoI。 <br>
 **Difficulty:** 采用两阶段调整策略定位RoI，以粗略到精细的方式加速对象检测过程。 <br>
 **Result:** 仅生成Faster-RCNN的1/14锚，使用ZF-Net检测速度提高了约2fps，在两个基准测试中的平均mAP分别为80.31％和94.95％，分别比使用VGG16的Faster-RCNN高9.69％和7.88％。实验结果表明该网络在速度和mAP方面都优于以前的方法,在小尺寸物体上表现更好。 <br>
-**Link:**  https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2018_%E7%94%A8%E4%BA%8E%E8%BD%A6%E8%BD%BD%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%A3%80%E6%B5%8B%E7%BD%91%E7%BB%9C.pdf<br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2018_%E7%94%A8%E4%BA%8E%E8%BD%A6%E8%BD%BD%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%A3%80%E6%B5%8B%E7%BD%91%E7%BB%9C.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="439" height="271" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-1.PNG"/></div>  <br>
 <div align=center><img width="543" height="184" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/14-2.PNG"/></div>  <br>
-<br>
-
 **Name:** 通过兴趣区域提取检测交通标志 <br>
 **Publication category:** ScienceDirect <br>
 **Publication Name:** Pattern Recognition <br>
