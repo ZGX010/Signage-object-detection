@@ -10,6 +10,60 @@
 **Result:** 采用的CbCr高斯色度模型，符合标志颜色的分布区间，能避免不同光照的影响；相对于直接设置阈值检测方法，避免了许多误检；相对于色彩差方法，本文初步分割检测时避免了将黄色目标误检为红色目标；采用的HOG特征对光照和尺度变化不敏感，且能够很好地描述图像的边缘。将HOG算子与二分类效果很好的SVM结合，将检测结果的正确率由75.48％提高到94.21%。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E9%AB%98%E6%96%AF%E9%A2%9C%E8%89%B2%E6%A8%A1%E5%9E%8B%E5%92%8CSVM%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E5%B8%B8%E5%8F%91%E4%BA%AE.pdf<br>
 
+**Name:** 基于图像聚类的交通标志CNN快速识别算法<br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 智能系统学报 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 提出一种基于图像聚类的交通标志CNN快速识别算法。 <br>
+**Difficulty:** 利用图像聚类算法对原始数据集进行样本优化；采用多种图像预处理操作使样本整体质量进一步提升；构造深度为9的CNN结构，通过多次训练得到最终的网络模型，将待识别的图像输入到CNN模型实现自动识别。 <br>
+**Result:** 单张图片的识别速度只需0.2s，识别精度高达98.5%以上。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%83%8F%E8%81%9A%E7%B1%BB%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97CNN%E5%BF%AB%E9%80%9F%E8%AF%86%E5%88%AB%E7%AE%97%E6%B3%95_%E4%BC%8D%E9%94%A1%E5%A6%82.pdf<br>
+
+**Name:** 基于改进LeNet -5-网络的交通标志识别方法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 科学技术与工程 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 针对传统LeNet-5卷积神经网络用于交通标志等多种类识别任务中，存在识别正确率低，网络容易过拟合以及梯度消失等问题进行改进。 <br>
+**Difficulty:** LeNet-5适用于手写数字图片的识别，在识别交通标志图像时主要存在以下问题：交通标志图片尺寸较大，使用原有的卷积核进行特征提取效果不好；交通标志图片的背景、识别对象都较手写数字图片更为复杂，使用传统网络识别率较低；手写数字种类只有10种，而常见交通标志种类有62种，种类多难度大。 <br>
+**Result:** 改进的LeNet-5网络可以有效地解决过拟合和梯度消失的问题，且具有更好的稳健性。与CNN（卷积神经网络）+ SVM（支持向量机）和传统的LeNet-5网络相比，改进网络分类的准确率可达98.5％，比CNN+SVM高5％，比传统的LeNet-5网络高出3％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%94%B9%E8%BF%9BLeNet_5%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E6%B1%AA%E8%B4%B5%E5%B9%B3.pdf<br>
+
+**Name:** 基于多特征融合的交通标志识别算法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机与应用 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 提出了基于多特征融合和SVM分类器的交通标志识别算法。 <br>
+**Difficulty:** 通过HOG与LBP特征相融合得到维数降低的融合特征；级联颜色特征得到最终的特征向量；结合SVM分类器进行多类别分类。 <br>
+**Result:** 采用特征稀疏的方式融合HOG与LBP特征，能够很大程度上降低时间复杂度，级联颜色特征能够实现特征互补，提高标志识别率，交叉验证实验也证明了本文算法的鲁棒性。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E7%AE%97%E6%B3%95_%E9%9F%A9%E4%B9%A0%E4%B9%A0.pdf<br>
+
+**Name:** 复杂场景下基于颜色对和MSER的交通标志检测方法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 北京交通大学学报 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 提出一种基于颜色对和最大稳定极值区域（MSER）的交通标志检测算法。 <br>
+**Difficulty:** 解决不同天气情况下获取的图像亮度不同的问题，使用多组阈值;针对使用传统的颜色阈值算法得到的交通标志候选区域与颜色相似的背景粘连在一起的现象，提出一种分割算法对其进行准确分割。最后使用支持向量机（SVM）和方向梯度直方图（HOG）对得到的目标区域进行分类。 <br>
+**Result:** 在瑞典库，德国库和西班牙库中，本文算法F-measure值均高于SDA算法、CVS算法、Windows算法、MSERs算法。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E5%AF%B9%E5%92%8CMSER%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95_%E6%88%B4%E9%9B%AA%E7%91%9E.pdf<br>
+
+**Name:** 基于颜色空间和模板匹配的交通标志检测方法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 智能计算机与应用 <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 介绍分析了以RGB颜色模型及其确定阈值的粗分割算法和HSV颜色模型及其固定阈值的粗分割算法。 <br>
+**Difficulty:** 利用HSV颜色空间和RGB颜色空间对不同颜色的交通标志进行粗检测,标记不同的值实现ROI分割；利用模板匹配的方法对交通标志进行处理,使用模板在ROI区域上滑动,得到模板相似度的最大值,实现检测过程。 <br>
+**Result:** 基于模板匹配方法的交通标志检测系统目前可以检测大量的禁止标志,对数据库中的150张禁止标志图像进行检测,检测成功率为96.67%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E7%A9%BA%E9%97%B4%E5%92%8C%E6%A8%A1%E6%9D%BF%E5%8C%B9%E9%85%8D%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95_%E9%83%9D%E5%8D%9A%E9%97%BB.pdf<br>
+
+**Name:** 基于的Gabor特征提取和SVM交通标志识别方法研究 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 现代电子技术 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 针对传统识别技术不能满足实时性和准确性的要求，采用一种基于Gabor特征提取和支持向量机（SVM）交通标志识别方法。 <br>
+**Difficulty:** 选定交通标志图像进行灰度化、图像增强处理，采用Gabor滤波技术进行特征提取；针对大量的特征信息采用主成分分析（PCA）降维，并用支撑向量机分类识别；在Matlab平台上进行实验，验证该方法的识别率和识别时间。 <br>
+**Result:** 在相同样本集的测试下，本文算法对训练数据和测试数据分别进行了主成分分析（PCA）降维处理，简化了模型的复杂度，有效缩减识别时间，提高识别准确率。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8EGabor%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E5%92%8CSVM%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6_%E5%BC%A0%E4%BC%A0%E4%BC%9F.pdf<br>
+
 ---
 ##  Updata Time:2019_01_14
 **Name:** 自动驾驶场景下小且密集的交通标志检测<br>
