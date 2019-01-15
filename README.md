@@ -1,5 +1,15 @@
 # Signage-object-detection
 
+##  Updata Time:2019_01_15
+**Name:** 基于高斯颜色模型和SVM的交通标志检测<br>
+**Publication category:** EI<br>
+**Publication Name:** 仪器仪表学报 <br>
+**Issuing Time:** 2014 <br>
+**Contribution:** 提出一种基于高斯颜色模型和机器学习的快速交通标志检测算法，解决了单纯采用颜色模型或分类器检测误差较大的问题。 <br>
+**Difficulty:** 在直方图校正之后，使用高斯颜色模型方法来分割图像；在分割图像上利用形态学处理来提取候选交通标志；将HOG描述符和SVM组合起来训练分类器，准确地检测交通标志。 <br>
+**Result:** 采用的CbCr高斯色度模型，符合标志颜色的分布区间，能避免不同光照的影响；相对于直接设置阈值检测方法，避免了许多误检；相对于色彩差方法，本文初步分割检测时避免了将黄色目标误检为红色目标；采用的HOG特征对光照和尺度变化不敏感，且能够很好地描述图像的边缘。将HOG算子与二分类效果很好的SVM结合，将检测结果的正确率由75.48％提高到94.21%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E9%AB%98%E6%96%AF%E9%A2%9C%E8%89%B2%E6%A8%A1%E5%9E%8B%E5%92%8CSVM%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E5%B8%B8%E5%8F%91%E4%BA%AE.pdf<br>
+
 ---
 ##  Updata Time:2019_01_14
 **Name:** 自动驾驶场景下小且密集的交通标志检测<br>
@@ -55,7 +65,6 @@
 **Publication Name:** 机器人 <br>
 **Issuing Time:** 2015_1_15 <br>
 **Contribution:** 阐述了一种针对自然环境的高效交通标志识别方法，所设计的TSR系统已被应用于无人驾驶汽车平台，并多次参与“中国智能车未来挑战赛”。 <br>
-**Difficulty:** <br>
 **Result:** 本系统主要应用于“中国智能车未来挑战赛”无人驾驶汽车平台，在实际测试中识别率达95％，识别速率达8Hz~10Hz。 <br> 
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E9%9D%A2%E5%90%91%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E7%9A%84%E9%AB%98%E6%95%88%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95_%E5%AE%8B%E6%96%87%E6%9D%B0.pdf<br>
 
