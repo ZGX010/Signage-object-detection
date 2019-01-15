@@ -64,6 +64,78 @@
 **Result:** 在相同样本集的测试下，本文算法对训练数据和测试数据分别进行了主成分分析（PCA）降维处理，简化了模型的复杂度，有效缩减识别时间，提高识别准确率。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8EGabor%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E5%92%8CSVM%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6_%E5%BC%A0%E4%BC%A0%E4%BC%9F.pdf<br>
 
+**Name:** 基于改进深度卷积神经网络的交通标志识别 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 激光与光电子学进展 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 提出了改进深度卷积神经网络 AlexNet 的分类识别算法模型。 <br>
+**Difficulty:** 在传统 AlexNet模型基础上，以真实场景中拍摄的交通标志图像数据集GTSRB为研究对象，将所有卷积层的卷积核修改为3×3大小；为了预防和减少过拟合的出现在2个全连接层后加入dropout层；为了提高交通标志识别精度在网络模型第五层后增加两层卷积层。 <br>
+**Result:** 在GTSRB数据集上得到了96.875%的识别准确率、分类识别每幅图像40毫秒的识别速度。通过与 AlexNet 模型对比，在参数总量大幅减少的情况下，识别准确率还要高出1.3个百分点。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%94%B9%E8%BF%9B%E6%B7%B1%E5%BA%A6%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E9%A9%AC%E6%B0%B8%E6%9D%B0.pdf<br>
+
+**Name:** 基于多示例深度学习与损失函数优化的交通标志识别算法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 现代电子技术 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 分别从大数据样本收集标注、多示例深度学习、集成智能识别出发, 提出基于多示例深度学习的交通标志识别算法。 <br>
+**Difficulty:** 根据样本图像块与其对应的标签设计一个包含颜色、几何、区域特征的训练集, 得到样本特征与标签的对应规律;根据权重修正反馈, 推导包与标签的逻辑关系, 建立多示例训练学习算子,准确分类；进行训练集损失函数计算, 通过最优分类器减少训练数据损失；基于大数据样本驱动形成背景约束去除示例中模棱两可的训练数据；基于QT平台, 开发相应的识别软件。 <br>
+**Result:** 本文算法在这种大型样本库中的准确识别率为96.3%, 而类似文献中两种算法的准确识别率要低于所提算法, 分别为91.7%, 93.4%。表明所提交通标志识别算法具有更理想的稳健性。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%A4%BA%E4%BE%8B%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E4%BC%98%E5%8C%96%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E7%AE%97%E6%B3%95_%E5%BC%A0%E6%B0%B8%E9%9B%84.pdf<br>
+
+**Name:** 基于优化卷积神经网络结构的交通标志识别 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机应用 <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 综合批量归一化（BN）方法，逐层贪婪预训练（GLP）方法，支持向量机（SVM）这三种方法对卷积神经网络（CNN）结构进行优化，提出基于优化CNN结构的交通标志识别算法。 <br>
+**Difficulty:** 采用BN方法改变中间层的数据分布，将卷积层的输出数据归一化为均值0和方差值1，缩短训练时间；通过使用GLP方法，每一层卷积网络在训练结束时进行了训练，其参数得以保留，直到完全训练了所有卷积层，有效提高识别率；SVM分类器仅关注具有错误分类的样本，加快了训练速度。 <br>
+**Result:** 与传统的CNN相比，新算法的训练时间减少了20.67％，识别率达到98.24％；优化前的识别率为97.36％，优化后的识别率为98.03％，使用GLP方法的识别率比优化前的三层卷积识别率要高。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E4%BC%98%E5%8C%96%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E7%8E%8B%E6%99%93%E6%96%8C.pdf<br>
+
+**Name:** 基于分块自适应融合特征的交通标志识别 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机工程与应用 <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 提出基于分块HOG-LBP自适应融合特征的交通标志识别方法。通过分块计算梯度直方图得到的权重系数，判断该块是属于轮廓还是内部指示，对前者选择HOG权重大，后者选择LBP特征权重大，将自适应串行融合后的特征送入支持向量机识别。 <br>
+**Difficulty:** 交通标志由外形和内部指定符号组成，前者可由方向梯度直方图（HOG）描述，但直方图受噪声影响，后者的细节可以通过局部二元模式（LBP）很好地描述。 <br>
+**Result:** 该算法对标准交通标志识别率可达到100％，对含模糊，残缺，遮挡等非标准交通标志也达到了76％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%88%86%E5%9D%97%E8%87%AA%E9%80%82%E5%BA%94%E8%9E%8D%E5%90%88%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E6%88%88%E4%BE%A0.pdf<br>
+
+**Name:** 应用卷积神经网络与RPN的交通标志识别 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机工程与应用 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 提出了利用深度学习方法设计卷积神经网络. <br>
+**Difficulty:** 利用RPN网络结构提取到候选区域；对提取到的特征，利用bbox层回归处理对其进行定位；通过标签层分类概率向量确定其属于警告，禁止，指示中的哪一类。 <br>
+**Result:** 训练的检测卷积网络最好时回收率达到了95.3％左右。该方法的准曲率和召回率均比Faster R-CNN方法要高。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%BA%94%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8ERPN%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB_%E8%B0%AD%E5%8F%B0%E5%93%B2.pdf<br>
+
+**Name:** 复杂光照条件下交通标志牌检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 中国科技论文 <br>
+**Issuing Time:** 2018 <br>
+**Contribution:** 结合亮度场景分类、RGB空间下颜色分割以及形状轮廓空间特征，提出一种复杂光照条件下交通标志牌检测方法。 <br>
+**Difficulty:** 根据图像亮度分布情况将图像分为逆光、阴暗、明亮和正常４种场景并进行自适应 Gamma变换，消除光照对RGB颜色分量的影响，实现图像增强;利用基于RGB空间下改进的三分量色差法提取图像中红色、黄色和蓝色目标区域，实现目标区域粗定位;利用形状轮廓空间特征实现交通标志牌精确定位。 <br>
+**Result:** 不同检测方法的检出率比较：基于边缘颜色对检测是95.30%；局部Hough变换93.60%；基于多特征高可信度区域检测97.10%；HSI＋ 形状91.55%；本文方法97.60%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%A4%8D%E6%9D%82%E5%85%89%E7%85%A7%E6%9D%A1%E4%BB%B6%E4%B8%8B%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%89%8C%E6%A3%80%E6%B5%8B_%E6%9D%8E%E6%96%87%E4%B8%BE.pdf<br>
+
+**Name:** 复杂光照条件下交通标志牌检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 电视技术 <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 提出一种改进的网络模型。该模型集合了多尺度输入、并行交叉、恒等映射的特点，保证特征提取的充分性与多样性并使网络性能不会随深度加深而退化。 <br>
+**Difficulty:** 网络训练采用图像扩增技术，使训练集扩增为原来的10倍；对图像进行去均值处理；在实验中用ReLU(Rectified linear unit)类型的激活函数代替传统卷积神经网络中的sigmoid激活函数,并且卷积层后面加入了归一化层 (BatchNormalization, BN)。 <br>
+**Result:** 并行交叉模型、恒等映射模型在GTSRB数据集上的识别率分别可达到94.9%, 95.8%, 比传统卷积神经网络89.9%的准确率高, 两者结合后识别率可达到96.3%；以80×80、64×64和48×48大小作为网络输入可以分别达到95.9%、96.3%和95.6%的识别率;把它们共同作为网络输入时, 可达到97.6%的准确率, 远超传统卷积神经网络的识别率。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E6%94%B9%E8%BF%9B%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C%E5%9C%A8%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8_%E6%9D%A8%E8%BF%9C%E9%A3%9E.pdf<br>
+
+**Name:** 基于显著图与傅里叶描述子的交通标志检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机工程 <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 提出基于显着图和傅里叶描述子的交通标志检测算法，解决交通标志检测存在标志尺寸变化、旋转失真、投影失真以及部分被遮挡等问题。 <br>
+**Difficulty:** 采用频率调谐方法得到显着图并将其二值化，初步定位交通标志区域；提取区域外层轮廓，利用轮廓周长和长宽比特征滤除干扰信息，对合格轮廓进行凸壳处理，得到归一化凸壳傅里叶描述子，并与标准数据对比得到检测结果。 <br>
+**Result:** 国内交通标志实验圆形、矩形、三角形交通标志的检测率分别为95.33%、94.10%、96.73%。GTSDB标志实验圆形、矩形、三角形交通标志的检测率分别为92.60%、91.79%、92.52%。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%98%BE%E8%91%97%E5%9B%BE%E4%B8%8E%E5%82%85%E9%87%8C%E5%8F%B6%E6%8F%8F%E8%BF%B0%E5%AD%90%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E4%BD%99%E8%B6%85%E8%B6%85.pdf<br>
+
 ---
 ##  Updata Time:2019_01_14
 **Name:** 自动驾驶场景下小且密集的交通标志检测<br>
