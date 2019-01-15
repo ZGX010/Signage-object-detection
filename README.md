@@ -136,6 +136,34 @@
 **Result:** 国内交通标志实验圆形、矩形、三角形交通标志的检测率分别为95.33%、94.10%、96.73%。GTSDB标志实验圆形、矩形、三角形交通标志的检测率分别为92.60%、91.79%、92.52%。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E6%98%BE%E8%91%97%E5%9B%BE%E4%B8%8E%E5%82%85%E9%87%8C%E5%8F%B6%E6%8F%8F%E8%BF%B0%E5%AD%90%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E4%BD%99%E8%B6%85%E8%B6%85.pdf<br>
 
+
+**Name:** 自然场景下三角形交通标志的检测与识别 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 应用科学学报 <br>
+**Issuing Time:** 2014 <br>
+**Contribution:** 提出了一种适用于自然场景下三角形交通标志的检测与识别方法。 <br>
+**Difficulty:** 利用颜色分割粗略提取标志区;提取标志区轮廓边缘和直线拟合，确定三角形标志的3个顶点，精确检测出完整的三角形标志区;设计一种分块特征提取方法对检测出的三角形标志和所有参考三角形标志进行特征提取，通过特征匹配识别出三角形交通标志类别。 <br>
+**Result:** 试验数据为350张车载视频图像，共有79个三角形标志。本文算法检测出75个，检测正确率约为95％；基于三角形颜色和形状特征的整体模板匹配方法识别正确率约为56％;精确轮廓提取获得完整标志形状，采用分块特征提取的识别方法，识别正确率为75.9％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E8%87%AA%E7%84%B6%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%B8%89%E8%A7%92%E5%BD%A2%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB_%E8%B4%BE%E6%B0%B8%E7%BA%A2.pdf<br>
+
+**Name:** 雾霾天气情况下的交通标志检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 交通运输系统工程与信息 <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 提出一种在雾霾天气下快速实现交通标志检测的算法。 <br>
+**Difficulty:** 通过暗原色原理对雾霾天气中获得的图像进行去雾处理,得到对比度增强的图像;将图像转换为归一化红蓝图像,在不同阈值对该图像进行二值化,提取其连通区域,如果连通区域在几个阈值下的二值化图像均能保持形状不变,则选作感兴趣区域;利用交通标志的形状信息将干扰区域去除,得到交通标志的检测结果。 <br>
+**Result:** 用MATLAB2012b进行仿真实验, 文章采用的去雾的MSERs方法比NRGB、MSERs提取的方法、去雾后的NRGB方法的实验结果都要好.<br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E9%9B%BE%E9%9C%BE%E5%A4%A9%E6%B0%94%E6%83%85%E5%86%B5%E4%B8%8B%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E8%96%9B%E7%8E%89%E5%88%A9.pdf<br>
+
+**Name:** 基于MSER和SVM的快速交通标志检测_ <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 光电子·激光 <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 提出了一种基于感兴趣区域（ROI）提取和机器学习的快速TSD算法，解决传统的基于机器学习的交通标志检测（TSD）方法需要对每一个待检测子窗口进行处理而导致算法实时性不高的问题。 <br>
+**Difficulty:** 针对传统基于颜色阈值的ROI提取方法具有对光照变化较敏感等缺点，设计一种颜色增强下的最大稳定极值区域（MSER）方法，根据标志的颜色进行颜色增强，对颜色增强图像提取MSER得到交通标志ROI;在图像的多尺度滑动遍历检测过程中，仅对包含ROI的滑动窗口进行方向梯度直方图（HOG）特征的提取，并通过支持向量机（SVM）进行分类判别。 <br>
+**Result:** 本文改进的TSD方法在运算速度上有较大提升，获得了96.42％的检测率以及较低的误检数。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8EMSER%E5%92%8CSVM%E7%9A%84%E5%BF%AB%E9%80%9F%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E7%8E%8B%E6%96%8C.pdf<br>
+
 ---
 ##  Updata Time:2019_01_14
 **Name:** 自动驾驶场景下小且密集的交通标志检测<br>
