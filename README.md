@@ -1,5 +1,32 @@
 # Signage-object-detection
 
+##  Updata Time:2019_01_16
+**Name:** 基于多特征协同的交通标志检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机工程 <br>
+**Issuing Time:** 2015 <br>
+**Contribution:** 提出一种颜色特征、形状特征和尺度特征的多特征协同方法。 <br>
+**Difficulty:** 计算颜色增强图,利用多阈值分割方法和闭合轮廓曲率直方图链码表达,对提取的形状轮廓的曲率直方图进行尺度归一化处理,融合颜色特征和归一化后的形状特征构成区域的特征向量,采用支持向量机分类获得检测结果。 <br>
+**Result:** 采用数据集Traffic Signs UAH和GTSDB数据集进行实验，本文方法平均每帧运行时间低于1.0s。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%89%B9%E5%BE%81%E5%8D%8F%E5%90%8C%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E6%B1%A4%E5%87%AF.pdf<br>
+
+**Name:** 基于自适应阈值与圆形相似度的禁令标志检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 工程设计学报 <br>
+**Issuing Time:** 2014 <br>
+**Contribution:** 提出了一种简单的双向遍历外边缘提取算法, 采用该方法能够获取候选区域清晰的外边缘；利用圆形相似度参数判断候选区域是否为禁令标志区域.比Hough变换圆检测算法简单，能检测不连续的圆形外边缘。 <br>
+**Difficulty:** 采用一种HSI自适应阈值粗分割方法获取场景图像的红色二值图, 克服固定阈值分割算法受光照等外界因素影响较大的缺点；进行连通区域标记, 排除部分非禁令标志红色区域,对多个相连禁令标志作有效分割, 提取出禁令标志的候选区域；通过分析候选区域外边缘的圆形相似度参数, 确定禁令标志区域。 <br>
+**Result:** 算法能够有效地检测并分割开多个相连的禁令标志；能从光照干扰较强的场景中检测出禁令标志；能检测到部分边缘被遮挡的禁令标志；适用于边缘褪色严重的禁令标志；在红色干扰物较多场景中具有较好的检测效果。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E5%9F%BA%E4%BA%8E%E8%87%AA%E9%80%82%E5%BA%94%E9%98%88%E5%80%BC%E4%B8%8E%E5%9C%86%E5%BD%A2%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%9A%84%E7%A6%81%E4%BB%A4%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B_%E6%AC%A7%E9%98%B3%E7%BB%B4%E5%8A%9B.pdf<br>
+
+**Name:** 一种基于颜色不变量和PHOG特征的交通标志检测方法 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机应用与软件 <br>
+**Issuing Time:** 2014 <br>
+**Contribution:** 提出一种基于颜色不变量和塔式梯度方向直方图PHOG特征的交通标志检测方法。 <br>
+**Difficulty:** 自然环境下的交通标志,PHOG特征所采用的Canny算法在获取感兴趣区域轮廓时会产生较多噪声,从而降低分类性能。提出利用Chromatic-edge来增强目标轮廓并抑制噪声以提升PHOG特征描述能力。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E4%B8%8D%E5%8F%98%E9%87%8F%E5%92%8CPHOG%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95_%E5%91%A8%E5%B9%BF%E6%B3%A2.pdf<br>
+
 ##  Updata Time:2019_01_15
 **Name:** 基于高斯颜色模型和SVM的交通标志检测<br>
 **Publication category:** EI<br>
