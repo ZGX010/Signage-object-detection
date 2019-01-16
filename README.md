@@ -25,6 +25,7 @@
 **Issuing Time:** 2014 <br>
 **Contribution:** 提出一种基于颜色不变量和塔式梯度方向直方图PHOG特征的交通标志检测方法。 <br>
 **Difficulty:** 自然环境下的交通标志,PHOG特征所采用的Canny算法在获取感兴趣区域轮廓时会产生较多噪声,从而降低分类性能。提出利用Chromatic-edge来增强目标轮廓并抑制噪声以提升PHOG特征描述能力。 <br>
+**Result:** 该方法对光照、阴影、遮挡、以及背景复杂等因素具有较高的鲁棒性, 获得了较高的检测率和较低的误检率。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E4%B8%8D%E5%8F%98%E9%87%8F%E5%92%8CPHOG%E7%89%B9%E5%BE%81%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95_%E5%91%A8%E5%B9%BF%E6%B3%A2.pdf<br>
 
 ##  Updata Time:2019_01_15
