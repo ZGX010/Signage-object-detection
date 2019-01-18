@@ -1,5 +1,51 @@
 # Signage-object-detection
 
+##  Updata Time:2019_01_18
+**Name:** 基于多特征协同的交通标志检测 <br>
+**Publication category:** 中文核心 <br>
+**Publication Name:** 计算机科学与应用 <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 本文提出了一种基于多帧视频图像空间时序关系模型的城市道路交通标志检测算法。改进基于颜色的图像快速分割算法，分割压缩交通标志检测信息；依据交通标志在多帧图像序列中的连续变化关系构建空间时序关系模型(Temporal Spatial Model, STM)，筛选交通标志检测候选区域。 <br>
+**Difficulty:** 基于颜色的图像快速分割压缩算法；建立多帧视频图像空间时序关系模型(STM）。 <br>
+**Result:** 算法应用 STM 后交通标志检测准确率提高近10%，误检率减少近7%；算法平均每幅图像检测处理的时间约为25ms，即每秒可处理40帧，满足实时性处理要求。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_Chinese/2017%20%E5%9F%BA%E4%BA%8E%E5%A4%9A%E5%B8%A7%E8%A7%86%E9%A2%91%E5%9B%BE%E5%83%8F%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E5%AE%9E%E6%97%B6%E6%A3%80%E6%B5%8B.pdf<br>
+
+**Name:** 基于深度学习的交通标志检测与识别研究与应用 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 机器人与智能系统国际会议（ICRIS） <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 在完全卷积网络的指导下，提出了一种基于SSD算法的交通标志检测与识别新框架。 <br>
+**Difficulty:** 将SSD扩展到新的应用程序交通标志检测和识别问题具有挑战性。 <br>
+**Result:** 迭代20000次后，准确率可达到约96％;大大减少负样本的训练,提高Softmax分类器的准确性。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AEICRIS_2018_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%BA%94%E7%94%A8.pdf<br>
+
+**Name:** 野外交通标志检测与分类 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 计算机视觉和模式识别会议（CVPR） <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 创建了一个新的，更现实的交通标志基准,称为清华 - 腾讯100K,与广泛使用的GTSDB相比，我们的基准测试包含的图像数量是图像分辨率的32倍。；训练了两个CNN来检测交通标志，同时检测和分类交通标志。<br>
+**Difficulty:** 基准测试中的每个交通标志都使用类标签，边界框和像素掩码进行注释。 <br>
+**Result:** 本文方法的召回率为0.91，准确率为0.88；而Faster R-CNN的召回率为0.56，精度为0.50。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AECVPR_2016_%E9%87%8E%E5%A4%96%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
+
+**Name:** 用于小目标检测的感知生成对抗网络<br>
+**Publication category:** IEEE <br>
+**Publication Name:** 计算机视觉和模式识别会议（CVPR） <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 提出了一种新的感知生成对抗网络（Perceptual GAN）模型解决小目标检测的挑战性问题。第一个成功应用GAN相似模型来解决具有挑战性的小规模物体检测问题;引入新的条件生成器模型，学习大小对象之间的加法残差表示，而不是像以前生成完整的表示；引入新的感知鉴别器，提供更有利于检测的全面监督。<br>
+**Difficulty:** 开发单一的体系结构解决小对象检测问题，该体系结构内部将小对象的表示提升为超分辨率的对象，实现与大对象类似的特性从而区分检测。 <br>
+**Result:** 本文方法检测船，瓶，椅和植物的平均精度（AP）分别为69.4％，60.2％，57.9％和41.8％，明显优于Faster R-CNN的59.4％，38.3％，42.8％和31.8％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2017_%E7%94%A8%E4%BA%8E%E5%B0%8F%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9A%84%E6%84%9F%E7%9F%A5%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C.pdf<br>
+
+**Name:** 实时交通标志检测与分类<br>
+**Publication category:** IEEE <br>
+**Publication Name:** 智能交通系统 <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 提出了一种新的感知生成对抗网络（Perceptual GAN）模型解决小目标检测的挑战性问题。第一个成功应用GAN相似模型来解决具有挑战性的小规模物体检测问题;引入新的条件生成器模型，学习大小对象之间的加法残差表示，而不是像以前生成完整的表示；引入新的感知鉴别器，提供更有利于检测的全面监督。<br>
+**Difficulty:** 开发单一的体系结构解决小对象检测问题，该体系结构内部将小对象的表示提升为超分辨率的对象，实现与大对象类似的特性从而区分检测。 <br>
+**Result:** 本文方法检测船，瓶，椅和植物的平均精度（AP）分别为69.4％，60.2％，57.9％和41.8％，明显优于Faster R-CNN的59.4％，38.3％，42.8％和31.8％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2016_%E5%AE%9E%E6%97%B6%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%88%86%E7%B1%BB.pdf<br>
+
 ##  Updata Time:2019_01_16
 **Name:** 基于多特征协同的交通标志检测 <br>
 **Publication category:** 中文核心 <br>
@@ -399,7 +445,7 @@
 **Contribution:** 提出了一种基于颜色不变量和改进的PHOG来检测交通标志的新方法。<br>
 **Difficulty:** 通过聚类颜色不变量特征将图像分割成不同的区域以获得感兴趣的候选区域，采用PHOG特征来表示ROI的形状特征。<br>
 **Result:** 所提出的基于颜色不变的聚类在交通标志分割中比HSI分割有效，对诸如阴影，遮挡，天气，复杂背景等各种因素非常稳健。<br>
-**Link:**https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E5%88%86%E5%89%B2%E5%92%8C%E9%B2%81%E6%A3%92%E5%BD%A2%E7%8A%B6%E5%8C%B9%E9%85%8D%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf<br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E9%A2%9C%E8%89%B2%E5%88%86%E5%89%B2%E5%92%8C%E9%B2%81%E6%A3%92%E5%BD%A2%E7%8A%B6%E5%8C%B9%E9%85%8D%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf<br>
 **Thumbnail:** <br> 
 <div align=center><img width="858" height="475" src="https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Screenshot/4-1.PNG"/></div>  <br>
 <br>
