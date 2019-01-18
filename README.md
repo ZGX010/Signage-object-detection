@@ -38,7 +38,23 @@
 **Result:** 本文方法检测船，瓶，椅和植物的平均精度（AP）分别为69.4％，60.2％，57.9％和41.8％，明显优于Faster R-CNN的59.4％，38.3％，42.8％和31.8％。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2017_%E7%94%A8%E4%BA%8E%E5%B0%8F%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9A%84%E6%84%9F%E7%9F%A5%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C.pdf<br>
 
+**Name:** 基于RGB到红色转换的交通标志的检测和识别 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 计算方法与通信国际会议（ICCMC） <br>
+**Issuing Time:** 2017 <br>
+**Contribution:** 提出了基于RGB到Red转换和单层感知器神经网络的印度交通标志检测与识别系统。<br>
+**Difficulty:** 用单层感知器网络进行识别；Perceptron是用于学习二元分类器的算法。<br>
+**Result:** 测试图像以0.143秒识别，检测精度为93.25％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2017_%E5%9F%BA%E4%BA%8ERGB%E5%88%B0%E7%BA%A2%E8%89%B2%E8%BD%AC%E6%8D%A2%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E5%92%8C%E8%AF%86%E5%88%AB.pdf<br>
 
+**Name:** 利用通用检测框架快速检测交通场景中的多个对象 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 智能交通系统 <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 提出了一种基于学习的单一检测框架来检测所有三种重要类型的对象：交通标志、汽车、骑自行车者。<br>
+**Difficulty:** 为了增强噪声和图像变形的特征稳健性，引入空间池特征作为聚合信道特征的一部分；为了进一步提高泛化性能，提出一种对象次范畴化方法捕获对象的类内变异。<br>
+**Result:** 如下图所示。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2017_%E5%9F%BA%E4%BA%8ERGB%E5%88%B0%E7%BA%A2%E8%89%B2%E8%BD%AC%E6%8D%A2%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E7%9A%84%E6%A3%80%E6%B5%8B%E5%92%8C%E8%AF%86%E5%88%AB.pdf<br>
 
 ##  Updata Time:2019_01_17
 **Name:** 实时交通标志检测与分类 <br>
