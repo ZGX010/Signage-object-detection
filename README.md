@@ -1,6 +1,39 @@
 # Signage-object-detection
 
 ---
+##  Updata Time:2019_01_21
+
+**Number:** 60
+**Name:** 基于模糊积分的交通标志检测与识别图像处理 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 信号和图像处理国际会议（IWSSIP） <br>
+**Issuing Time:** 2016 <br>
+**Contribution:** 提出了一种基于模糊积分的非接触式图像处理算法来检测和识别交通标志检测。一些图像处理技术用于检测交通标志，而模糊积分用于识别交通标志。<br>
+**Difficulty:**  在交通标志识别系统中使用模糊积分作为输入参数的算法的积极方面。<br>
+**Result:** 方法提供了较高的总体DR（96.7％），具有合理的FAR（3.02％）。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Conference%20abstracts_English/%E4%BC%9A%E8%AE%AE_2016_%E5%9F%BA%E4%BA%8E%E6%A8%A1%E7%B3%8A%E7%A7%AF%E5%88%86%E7%9A%84%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E6%A3%80%E6%B5%8B%E4%B8%8E%E8%AF%86%E5%88%AB%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86.pdf<br>
+
+**Number:** 59
+**Name:** 使用统计学习方法进行交通标志分割和分类 <br>
+**Publication category:** ScienceDirect <br>
+**Publication Name:** 神经计算 <br>
+**Issuing Time:** 2015 <br>
+；**Contribution:** 提出了一种完整的彩色和消色差交通标志检测和形状分类程序；后处理阶段用于分离共同定位的标记的算法提供了优异的结果；通过傅立叶描述符号形状，以及它们与基于SVM的分类算法。 <br>
+**Difficulty:**  使用傅立叶描述符进行符号形状分类。<br>
+**Result:** 方法提供了较高的总体DR（96.7％），具有合理的FAR（3.02％）。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2015_%E4%BD%BF%E7%94%A8%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E5%88%86%E5%89%B2%E5%92%8C%E5%88%86%E7%B1%BB.pdf<br>
+
+**Number:** 58
+**Name:** 基于图的排序和分割算法检测交通标志 <br>
+**Publication category:** IEEE <br>
+**Publication Name:** 系统，人和控制论学会 <br>
+**Issuing Time:** 2015 <br>
+**Contribution:** 提出了一种新的基于图形的交通标志检测方法；提供了一种新颖的框架，它结合了节点的颜色，显着性，空间和上下文关系的信息。 <br>
+**Difficulty:**  显着性测量阶段，基于图形的排序阶段和多阈值分割阶段。<br>
+**Result:** 拟议的交通标志检测方法达到了更高的水平的使用颜色信息、形状信息、局部稳定性的传统系统的测量率。与西班牙交通标志集上的RGBNT和HST相比，所提出的方法可以分别获得5.93％和21.01％的改善，比GTSDB数据集上的RGBNT和HST提高26.07％和34.16％，以及9.76％比瑞典交通标志数据集上的RGBNT和HST提高了15.11％。 <br>
+**Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2015_%E5%9F%BA%E4%BA%8E%E5%9B%BE%E7%9A%84%E6%8E%92%E5%BA%8F%E5%92%8C%E5%88%86%E5%89%B2%E7%AE%97%E6%B3%95%E6%A3%80%E6%B5%8B%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97.pdf<br>
+
+---
 ##  Updata Time:2019_01_19
 
 **Number:** 57
