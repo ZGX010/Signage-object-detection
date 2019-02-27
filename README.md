@@ -18,7 +18,7 @@
 **Publication category:** ScienceDirect <br>
 **Publication Name:** 神经计算 <br>
 **Issuing Time:** 2015 <br>
-；**Contribution:** 提出了一种完整的彩色和消色差交通标志检测和形状分类程序；后处理阶段用于分离共同定位的标记的算法提供了优异的结果；通过傅立叶描述符号形状，以及它们与基于SVM的分类算法。 <br>
+**Contribution:** 提出了一种完整的彩色和消色差交通标志检测和形状分类程序；后处理阶段用于分离共同定位的标记的算法提供了优异的结果；通过傅立叶描述符号形状，以及它们与基于SVM的分类算法。 <br>
 **Difficulty:**  使用傅立叶描述符进行符号形状分类。<br>
 **Result:** 方法提供了较高的总体DR（96.7％），具有合理的FAR（3.02％）。 <br>
 **Link:** https://github.com/ZGX010/Signage-object-detection/blob/master/articles/Research%20articles_English/%E8%AE%BA%E6%96%87_2015_%E4%BD%BF%E7%94%A8%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E4%BA%A4%E9%80%9A%E6%A0%87%E5%BF%97%E5%88%86%E5%89%B2%E5%92%8C%E5%88%86%E7%B1%BB.pdf<br>
