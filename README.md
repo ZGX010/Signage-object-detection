@@ -113,7 +113,7 @@
 ---
 ##  Updata Time:2019_01_18
 **Number:** 50
-**Name:** 基于多特征协同的交通标志检测 <br>
+**Name:** 基于多帧视频图像的交通标志实时检测 <br>
 **Publication category:** 中文核心 <br>
 **Publication Name:** 计算机科学与应用 <br>
 **Issuing Time:** 2017 <br>
