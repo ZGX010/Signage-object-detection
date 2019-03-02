@@ -644,7 +644,7 @@
 <br>
 
 **Number:** 1
-**Name:** 自然环境下圆形禁令交通标志检测 <br>
+**Name:** 基于深度属性学习的交通标志检测 <br>
 **Publication category:** EI<br>
 **Publication Name:** 吉林大学学报(工学版) <br>
 **Issuing Time:** 2017_3_9<br>
